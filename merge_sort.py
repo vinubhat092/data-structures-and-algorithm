@@ -20,7 +20,7 @@ def mergesort(data):
     
 
     mid = int(len(data) / 2)
-    left = mergesort(data[:mid])
+    left = mergesort(data[:mid]) 
     right = mergesort(data[mid:])
     print("left",left)
     print("right",right)
